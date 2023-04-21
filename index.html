@@ -7,23 +7,25 @@
     <title>Document</title>
     <style>
         img{
-            width: 200px;
-            height: 200px;
-            box-shadow: 10px 10px 10px 5px red; 
-            /* left-right, top-booton blur thickness */
-            box-shadow: 10px -10px 10px 5px red;
+            width: 150px;
+            opacity: 0.7;
         }
-        div{
-            width: 200px;
-            height: 200px;
-            border: 1px solid black;
-            box-shadow: 5px 5px 5px 1px black, 
-                        -5px -5px 5px 1px orange;
+        img:hover{
+            opacity: 1;
+        }
+        h1{
+            opacity: 0.7;
+        }
+        h1:hover{
+            opacity: 1;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <img src="images/tree.jpg" alt="">
-    <div></div>
+    <img class="img-1" src="images/tree.jpg" alt="">
+    <img class="img-2" src="images/tree.jpg" alt="">
+    <img class="img-3" src="images/tree.jpg" alt="">
+    <h1>Laksanai</h1>
 </body>
 </html>
