@@ -6,30 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        a{
-            text-decoration: none;
+        li{
+            display: inline;
+        }
+        li a{
+            padding-right: 20px;
+
         }
         a:link{
-            color: red;
+            text-decoration: none;
         }
-        a:visited{
-            color: black;
-        }
-        a:hover{
-            text-decoration: underline;
-            background-color: yellow;
-            color: red;
-        }
-        a:active{
-            background-color: green;
-            color: black;
+        .box{
+            width: 30%;
+            box-sizing: border-box;
+            display: inline-block;
+            padding: 10px;
+            background-color: #f4f4f4;
         }
     </style>
 </head>
 <body>
-    <a href="#">Home</a>
-    <a href="#">Google</a>
-    <a href="#">Facebook</a>
-    <a href="#">About</a>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Page</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <hr>
+    <div class="box">
+        <h1>Title 1</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non accusamus officia ducimus quis consequuntur amet aspernatur veniam harum ab alias officiis laboriosam totam at unde sit deleniti, ipsum suscipit error.</p>
+    </div>
+    <div class="box">
+        <h1>Title 2</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non accusamus officia ducimus quis consequuntur amet aspernatur veniam harum ab alias officiis laboriosam totam at unde sit deleniti, ipsum suscipit error.</p>
+    </div>
+    <div class="box">
+        <h1>Title 3</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non accusamus officia ducimus quis consequuntur amet aspernatur veniam harum ab alias officiis laboriosam totam at unde sit deleniti, ipsum suscipit error.</p>
+    </div>
 </body>
 </html>
