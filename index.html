@@ -9,27 +9,21 @@
         img{
             width: 200px;
             height: 200px;
+            box-shadow: 10px 10px 10px 5px red; 
+            /* left-right, top-booton blur thickness */
+            box-shadow: 10px -10px 10px 5px red;
         }
-        img:hover{
-            cursor: pointer;
-            /* cursor: help; */
-        }
-        a:hover{
-            cursor: help;
-        }
-        li:hover{
-            cursor: progress;
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            box-shadow: 5px 5px 5px 1px black, 
+                        -5px -5px 5px 1px orange;
         }
     </style>
 </head>
 <body>
     <img src="images/tree.jpg" alt="">
-    <a href="http://www.google.com" target="_blank" rel="nooperner">Google</a>
-    <ul>
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
-    </ul>
+    <div></div>
 </body>
 </html>
-
