@@ -1,37 +1,9 @@
-a{
-    background-color: orange;
+input[type="email"], input[type="text"]{
+    width: 80%;
+    margin-bottom: 5px;
 }
-<<<<<<< HEAD
-a[target]{
-    background-color: red;
+input[type="submit"]{
     color: white;
-}
-a[target='_blank']{
-    background-color: black;
-    color: pink;
-}
-a[target='_self']{
-    color: purple;
-=======
-.flex-container{
-    display: flex;
-    background: skyblue;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-
-}
-.item{
-    background: orange;
-    border: 1px solid black;
-    width: 200px;
-    /* margin: 10px;
-    padding: 10px; */
-    text-align: center;
+    background-color: red;
     border-radius: 10px;
-    flex: 1;
-}
-.item-2{
-    /* flex-shrink: 2; */
-    /* flex-grow: 2; */
->>>>>>> 6234158d0e7d3f2f357a61efdf8792e36aa6f0ec
 }
