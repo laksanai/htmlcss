@@ -18,13 +18,10 @@
 
 }
 .item:first-child{
-    /* background-color: green; */
-    /* grid-column-start: 1; */
-    /* grid-column-end: 4; */
-    grid-column: 1/4;
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    grid-row: 1/4;
 }
 .item:last-child{
-    /* grid-column-start: 1; */
-    /* grid-column-end: 4; */
-    grid-column: 2/4;
+    /* grid-row: 1/4; */
 }
