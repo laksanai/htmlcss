@@ -1,14 +1,29 @@
+body{
+   background-color: #333;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
 .box{
+    background: white;
     width: 100px;
     height: 100px;
+    transition-property: background-color;
+    /* transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+
+    /* transition: background 3s, width 2s, border-radius 2s ease-in; */
+
+    transition: all 1s ease-in 2s;
+
+}
+.box:hover{
     background-color: red;
-    border: 2px solid black;
-    margin: 100px;
-    /* ย้ายตำแหน่งกล่อง */
-    /* transform: translate(200px, 100px); */
-    /* transform: rotate(45deg); */
-    /* transform: scale(2); */
-    transform: skewX(10deg);
+    width: 300px;
+    border-radius: 50%;
 }
 
     
