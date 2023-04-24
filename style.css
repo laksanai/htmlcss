@@ -4,24 +4,22 @@
 .flex-container{
     display: flex;
     background: skyblue;
-    flex-direction: row;
+    flex-direction: column;
     /* flex-wrap: wrap; */
-    justify-content: flex-end;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    height: 100vh;
 
 }
 .item{
     background: orange;
     border: 1px solid black;
     width: 200px;
-    /* margin: 10px;
-    padding: 10px; */
+    margin: 10px;
+    padding: 10px;
     text-align: center;
     border-radius: 10px;
-    /* flex: 1; ขาย item ที่อยู่ใน container เท่ากันและเต็มพื้นที่ */
-}
-.item-2{
-    /* flex-basis: 500px; */
-    /* flex-shrink: 2; หดเป็น x เท่า */
-    /* flex-grow: 2; ขยายเป็นสองเท่า */
 
 }
