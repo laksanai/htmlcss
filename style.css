@@ -4,13 +4,14 @@
 .flex-container{
     display: flex;
     background: skyblue;
-    flex-direction: column;
+    flex-direction: row;
     /* flex-wrap: wrap; */
-    /* justify-content: flex-start; */
-    /* justify-content: flex-end; */
-    justify-content: space-around;
-    /* justify-content: space-between; */
-    height: 100vh;
+    height: 50lvh;
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    align-items: center;
 
 }
 .item{
