@@ -1,13 +1,14 @@
-p{
+a{
     background-color: orange;
 }
-/* descendent selector */
-div p{
-    background-color: yellowgreen;
+a[target]{
+    background-color: red;
+    color: white;
 }
-
-/* child selector */
-
-div>p{
-    background-color: yellow;
+a[target='_blank']{
+    background-color: black;
+    color: pink;
+}
+a[target='_self']{
+    color: purple;
 }
