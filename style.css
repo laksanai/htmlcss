@@ -1,28 +1,5 @@
-body{
-    /* background-color: #333; */
-    background: url('https://cdn.pixabay.com/photo/2019/09/17/18/48/computer-4484282__340.jpg') no-repeat center center/cover;
-    color: #fff;
-}
-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
-}
-header>h1{
-    font-size: 4rem;
-    margin: 1rem;
-}
-header::before{
-    content: "";
-    background: black;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.4;
+.is-required::before{
+    content: "*";
+    color: red;
+    padding-left: 2px;
 }
