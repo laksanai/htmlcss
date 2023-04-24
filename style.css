@@ -1,4 +1,21 @@
-h1{
-    /* x y blur color */
-    text-shadow: 2px 2px 10px black;
+:root{
+    --box:1px solid green;
+    --theme-color: yellow;
+    --shadow: 5px 5px var(--theme-color);
+    --spacing: 10px;
+    --font:40px;
+}
+
+.box-1{
+    border:var(--box);
+    background-color: var(--theme-color);
+    box-shadow: var(--shadow);
+    margin: var(--spacing);
+    font-size: var(--font);
+}
+.box-2{
+    border:var(--box)
+}
+.box-3{
+    border:var(--box)
 }
